@@ -8,9 +8,17 @@
 void main() {
   print('Showing use of maps');
 
-  var numbers = [4, 7, 3, -1, 6];
-  for (int number in numbers) {
-    print(number);
+  var heroes = {
+    'Aragorn': 'Dunedain',
+    'Gimli': 'Dwarf',
+    'Legolas': 'Elf'
+  };
+
+  heroes['Bilbo'] = 'Hobbit';
+  heroes['Sam'] = 'Hobbit';
+
+  for (String hero in heroes.keys) {
+    print(hero + ' : ' + heroes[hero]);
   }
 
 }
