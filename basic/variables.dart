@@ -26,4 +26,9 @@ void main () {
   bool fail = false;
 
   print('This program is good: ' + ok.toString());
+
+  // JavaScript style
+  var simple = 0;
+  simple = 'Words';
+
 }
